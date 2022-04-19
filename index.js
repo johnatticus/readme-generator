@@ -38,7 +38,7 @@ function init() {
         type: 'list',
         name: 'license',
         message: 'What kind of license does your project have?',
-        choices: ['None', 'Apache License 2.0', 'MIT', 'Mozilla Public License 2.0', 'GNU General Public License v2.0'],
+        choices: ['MIT', 'APACHE 2.0', 'GPL 3.0', 'BSD 3', 'None'],
     },
     {
         type: 'input',

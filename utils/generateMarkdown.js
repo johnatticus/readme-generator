@@ -2,7 +2,7 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   if (license === "MIT") {
-    return '[[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)'
+    return '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)'
   }
   if (license === "APACHE 2.0") {
     return '[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)'
@@ -32,22 +32,26 @@ function renderLicenseLink(license) {
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {
-  if (license !== "None") {
-    return `## License
+// DID NOT USE THIS FUNCTION
+// function renderLicenseSection(license) {
+//   if (license !== "None") {
+//     return `## License
     
-    Project made with ${license}`
-  }
-}
+//     Project made with ${license}`
+//   }
+// }
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.project}
+  return `
+  # ${data.project}
 
-  by John Hysong
+ ### by ${data.name}
+
   ---
-  ${renderLicenseBadge(data.license)}
+
   ${renderLicenseLink(data.license)}
+  ${renderLicenseBadge(data.license)}
 
   ---  
   ## Description

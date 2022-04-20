@@ -26,7 +26,9 @@ function renderLicenseLink(license) {
       
       This project is licensed under ${license}.`;
     } else {
-      return ""
+      return `### License
+      
+      This project is not licensed.`;
     }
 }
 
@@ -48,6 +50,14 @@ function generateMarkdown(data) {
 
  ### by ${data.name}
 
+ ---
+## Table of Contents
+  - [License](#license)
+  - [Description](#description)
+  - [Installation and Usage](#installation-and-usage)
+  - [Contributions](#contributions)
+  - [Questions](#questions)
+
   ---
 
   ${renderLicenseLink(data.license)}
@@ -58,7 +68,7 @@ function generateMarkdown(data) {
 
   * ${data.description}
 ---
-## Installation, Tests & Usage
+## Installation and Usage
 
 **Dependenchies required(installed):** ${data.dependencies}
 

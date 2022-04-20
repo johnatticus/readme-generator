@@ -33,6 +33,9 @@ function init() {
         message: 'What is your project title?',
         name: 'project',
     },
+    // {
+    //     type: 'input'
+    // }
     {
         type: 'input',
         message: 'Enter a short description of your project:',

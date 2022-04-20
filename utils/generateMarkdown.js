@@ -28,21 +28,6 @@ function renderLicenseLink(license) {
     } else {
       return ""
     }
-  // if (license === "MIT") {
-  //   return '\n * [License](https://opensource.org/licenses/MIT)'
-  // }
-  // if (license === "APACHE 2.0") {
-  //   return '\n * [License](https://opensource.org/licenses/Apache-2.0)'
-  // }
-  // if (license === "GPL 3.0") {
-  //   return '\n * [License](https://www.gnu.org/licenses/gpl-3.0)'
-  // }
-  // if (license === "BSD 3") {
-  //   return '\n * [License](https://opensource.org/licenses/BSD-3-Clause)'
-  // }
-  // if (license === "None") {
-  //   return '\n * [License](#)'
-  // }
 }
 
 // TODO: Create a function that returns the license section of README
@@ -67,23 +52,28 @@ function generateMarkdown(data) {
   ---  
   ## Description
 
-  * ${data.description} *
+  * ${data.description}
 ---
-## Installation. Tests & Usage
-Dependenchies required(installed): ${data.dependencies}
+## Installation, Tests & Usage
 
-Test Commands: ${data.tests}
+**Dependenchies required(installed):** ${data.dependencies}
 
-Other Info: ${data.whattoknow}
+**Test Commands:** ${data.tests}
+
+**Other Info:** ${data.whattoknow}
+
 ---
+
 ## Contributions
-contributions from: ${data.contribution}
+
+${data.contribution}
+
 ---
+
 ## Questions
-Github account: [${data.username}](https://github.com/${data.username})
-E-Mail: [${data.email}](mailto:${data.username})
+**Github account:** [${data.username}](https://github.com/${data.username})
 
-
+**E-Mail:** [${data.email}](mailto:${data.username})
 `;
 }
 

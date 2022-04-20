@@ -61,9 +61,9 @@ function generateMarkdown(data) {
 
   by John Hysong
   ---
-  ## License
-  ${renderLicenseLink(data.license)}
   ${renderLicenseBadge(data.license)}
+  ${renderLicenseLink(data.license)}
+
   ---  
   ## Description
 

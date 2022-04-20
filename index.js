@@ -12,8 +12,7 @@ function writeToFile(fileName, data) {}
 
 // TODO: Create a function to initialize app
 function init() {
-    inquirer
-  .prompt([
+    inquirer.prompt([
     {
         type: 'input',
         message: 'What is your github username?',
@@ -61,6 +60,16 @@ function init() {
         name: 'contribution',
     },
 ])
+
+.then((data) => {
+    const readmeMarkdown = generateMarkdown(data);
+    fs.writeFile("readme.md", readmeMarkdown, (err) =>
+    err ? console.log(err) : console.log('Successfully written readme.md')
+    );
+}).catch((err) => {
+    if (err) throw err;
+});
+
 }
 
 // Function call to initialize app

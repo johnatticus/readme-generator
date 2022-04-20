@@ -25,6 +25,8 @@ function renderLicenseLink(license) {
       return `### License
       
       This project is licensed under ${license}.`;
+    } else {
+      return ""
     }
   // if (license === "MIT") {
   //   return '\n * [License](https://opensource.org/licenses/MIT)'
@@ -45,13 +47,42 @@ function renderLicenseLink(license) {
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {}
+function renderLicenseSection(license) {
+  if (license !== "None") {
+    return `## License
+    
+    Project made with ${license}`
+  }
+}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.project}
 
-  
+  by John Hysong
+  ---
+  ## License
+  ${renderLicenseLink(data.license)}
+  ${renderLicenseBadge(data.license)}
+  ---  
+  ## Description
+
+  * ${data.description} *
+---
+## Installation. Tests & Usage
+Dependenchies required(installed): ${data.dependencies}
+
+Test Commands: ${data.tests}
+
+Other Info: ${data.whattoknow}
+---
+## Contributions
+contributions from: ${data.contribution}
+---
+## Questions
+Github account: [${data.username}](https://github.com/${data.username})
+E-Mail: [${data.email}](mailto:${data.username})
+
 
 `;
 }

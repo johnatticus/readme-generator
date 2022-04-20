@@ -1,12 +1,13 @@
 
-  # title of projk
+  # John Proj
 
  ### by john
 
+ ---
 ## Table of Contents
   - [License](#license)
   - [Description](#description)
-  - [Installation & Usage](#installation-and-usage)
+  - [Installation and Usage](#installation-and-usage)
   - [Contributions](#contributions)
   - [Questions](#questions)
 
@@ -15,30 +16,30 @@
   ### License
       
       This project is not licensed.
-  [![License]("")
+  
 
   ---  
   ## Description
 
-  * its ok
+  * it is john proj from john
 ---
 ## Installation and Usage
 
-**Dependenchies required(installed):** npmi i
+**Dependenchies required(installed):** mpoopsd i
 
-**Test Commands:** node irendex
+**Test Commands:** fij
 
-**Other Info:** noth idm u
+**Other Info:** nmope
 
 ---
 
 ## Contributions
 
-meeeee
+
 
 ---
 
 ## Questions
-**Github account:** [joohnn](https://github.com/joohnn)
+**Github account:** [johnnn](https://github.com/johnnn)
 
-**E-Mail:** [none](mailto:joohnn)
+**E-Mail:** [john@hiohn.coim](mailto:johnnn)

@@ -35,8 +35,9 @@ function init() {
     },
     {
         type: 'input',
-        message: 'what is the name of your screenshot, including file extention?',
         name: 'screenshot',
+        message: 'what is the name of your screenshot, including file extention? If none, just press enter',
+        
     },
     {
         type: 'list',

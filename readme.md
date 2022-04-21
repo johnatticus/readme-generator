@@ -1,9 +1,12 @@
 
-  # This Projjjj
+  # readme-generator
 
- ### by John G
+ ### by john
 
- ![This Projjjj](https://raw.githubusercontent.com/guzzemetti/portfolio/main/assets/images/screencap.png)
+### Screenshot
+      
+      ![undefined](https://raw.githubusercontent.com/undefined/undefined/mainundefinedundefined)
+
  ---
 ## Table of Contents
   - [License](#license)
@@ -22,30 +25,30 @@
   ---  
   ## Description
   
-  *sd;flkhsdlkjfh*
+  *it works*
 ---
 ## Installation and Usage
 
-**Dependenchies required(installed):** sdklj;fhsdf
+**Dependenchies required(installed):** npm i
 
-**Test Commands:** sldkfhsdjkl;f
+**Test Commands:** node index
 
-**Other Info:** nsldkfhj
+**Other Info:** nope
 
 ---
 
 ## Contributions
 
-no
+me
 
 ---
 
 ## Questions
-**Github account:** [guzzemetti](https://github.com/guzzemetti)
+**Github account:** [johnatticus](https://github.com/johnatticus)
 
-**E-Mail:** [gooz@johng.net](mailto:guzzemetti)
+**E-Mail:** [jkfghddhf](mailto:johnatticus)
 
-**GitHub Repo:** [Click Here](https://github.com/guzzemetti/portfolio)
+**GitHub Repo:** [Click Here](https://github.com/johnatticus/readme-generator)
 
-**GitHub Live Link:** [Click Here](https://guzzemetti.github.io/portfolio)
+**GitHub Live Link:** [Click Here](https://johnatticus.github.io/readme-generator)
 

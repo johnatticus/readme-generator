@@ -32,6 +32,11 @@ function renderLicenseLink(license) {
     }
 }
 
+
+// function renderScreenshot(screenshot) {
+//     if ()
+// }
+
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 // DID NOT USE THIS FUNCTION
@@ -50,6 +55,7 @@ function generateMarkdown(data) {
 
  ### by ${data.name}
 
+ ![${data.project}](https://raw.githubusercontent.com/${data.username}/${data.repo}/main${data.screenshotdir}${data.screenshot})
  ---
 ## Table of Contents
   - [License](#license)
@@ -65,8 +71,8 @@ function generateMarkdown(data) {
 
   ---  
   ## Description
-
-  * ${data.description}
+  
+  *${data.description}*
 ---
 ## Installation and Usage
 
@@ -88,6 +94,11 @@ ${data.contribution}
 **Github account:** [${data.username}](https://github.com/${data.username})
 
 **E-Mail:** [${data.email}](mailto:${data.username})
+
+**GitHub Repo:** [Click Here](https://github.com/${data.username}/${data.repo})
+
+**GitHub Live Link:** [Click Here](https://${data.username}.github.io/${data.repo})
+
 `;
 }
 

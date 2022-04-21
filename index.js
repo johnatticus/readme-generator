@@ -33,9 +33,22 @@ function init() {
         message: 'What is your project title?',
         name: 'project',
     },
-    // {
-    //     type: 'input'
-    // }
+    {
+        type: 'input',
+        message: 'what is the name of your screenshot, including file extention?',
+        name: 'screenshot',
+    },
+    {
+        type: 'list',
+        message: 'Where is the screenshot located?',
+        choices: ['/', '/assets/images/', '/images/', 'None'],
+        name: 'screenshotdir',
+    },
+    {
+        type: 'input',
+        message: 'what is the GitHub repo name of this project?',
+        name: 'repo',
+    },
     {
         type: 'input',
         message: 'Enter a short description of your project:',
@@ -70,8 +83,7 @@ function init() {
 ])
 
 .then((data) => {
-    const readmeMarkdown = generateMarkdown(data);
-    fs.writeFile("readme.md", readmeMarkdown, (err) =>
+    fs.writeFile("readme.md", generateMarkdown(data), (err) =>
     err ? console.log(err) : console.log('Successfully written readme.md')
     );
 }).catch((err) => {

@@ -1,8 +1,9 @@
 
-  # John Proj
+  # This Projjjj
 
- ### by john
+ ### by John G
 
+ ![This Projjjj](https://raw.githubusercontent.com/guzzemetti/portfolio/main/assets/images/screencap.png)
  ---
 ## Table of Contents
   - [License](#license)
@@ -20,26 +21,31 @@
 
   ---  
   ## Description
-
-  * it is john proj from john
+  
+  *sd;flkhsdlkjfh*
 ---
 ## Installation and Usage
 
-**Dependenchies required(installed):** mpoopsd i
+**Dependenchies required(installed):** sdklj;fhsdf
 
-**Test Commands:** fij
+**Test Commands:** sldkfhsdjkl;f
 
-**Other Info:** nmope
+**Other Info:** nsldkfhj
 
 ---
 
 ## Contributions
 
-
+no
 
 ---
 
 ## Questions
-**Github account:** [johnnn](https://github.com/johnnn)
+**Github account:** [guzzemetti](https://github.com/guzzemetti)
 
-**E-Mail:** [john@hiohn.coim](mailto:johnnn)
+**E-Mail:** [gooz@johng.net](mailto:guzzemetti)
+
+**GitHub Repo:** [Click Here](https://github.com/guzzemetti/portfolio)
+
+**GitHub Live Link:** [Click Here](https://guzzemetti.github.io/portfolio)
+

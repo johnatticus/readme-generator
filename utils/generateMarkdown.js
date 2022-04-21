@@ -21,7 +21,7 @@ function renderLicenseBadge(license) {
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
-    if (license !== "None") {
+    if (license != "None") {
       return `### License
       
       This project is licensed under ${license}.`;
@@ -34,6 +34,7 @@ function renderLicenseLink(license) {
 
 
 function renderScreenshot(data) {
+  console.log(data);
     if (data.screenshot != "None" || data.screenshot != "none") {
       return `### Screenshot
       
@@ -57,13 +58,13 @@ function renderScreenshot(data) {
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `
-  # ${data.project}
+# ${data.project}
 
- ### by ${data.name}
+### by ${data.name}
 
 ${renderScreenshot(data.screenshot)}
 
- ---
+---
 ## Table of Contents
   - [License](#license)
   - [Description](#description)
@@ -71,16 +72,18 @@ ${renderScreenshot(data.screenshot)}
   - [Contributions](#contributions)
   - [Questions](#questions)
 
-  ---
-
-  ${renderLicenseLink(data.license)}
-  ${renderLicenseBadge(data.license)}
-
-  ---  
-  ## Description
-  
-  *${data.description}*
 ---
+
+${renderLicenseLink(data.license)}
+${renderLicenseBadge(data.license)}
+
+---  
+## Description
+
+*${data.description}*
+
+---
+
 ## Installation and Usage
 
 **Dependenchies required(installed):** ${data.dependencies}

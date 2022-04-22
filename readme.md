@@ -5,6 +5,8 @@
 
 ![Readme Generator](https://raw.githubusercontent.com/johnatticus/readme-generator/main/assets/images/screenshot.png)
 
+[Click HERE for video demonstration](https://drive.google.com/file/d/1xM_IAf1WKbY1M1s5SAZl_oEx5oIw_Bfw/view)
+
 ---
 ## Table of Contents
   - [License](#license)

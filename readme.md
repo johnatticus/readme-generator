@@ -1,11 +1,9 @@
 
-# sasdasd
+# Readme Proj
 
-### by wesdfsd
+### by john
 
-### Screenshot
-      
-      ![undefined](https://raw.githubusercontent.com/undefined/undefined/mainundefinedundefined)
+![Readme Proj](https://raw.githubusercontent.com/johnatticus/readme-generator/main/assets/images/screenshot.png)
 
 ---
 ## Table of Contents
@@ -19,38 +17,38 @@
 
 ### License
       
-      This project is licensed under APACHE 2.0.
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+      This project is not licensed.
+
 
 ---  
 ## Description
 
-*sdghggggg*
+*It a projecty*
 
 ---
 
 ## Installation and Usage
 
-**Dependenchies required(installed):** isewfqwerf3q
+**Dependenchies required(installed):** nmpm i
 
-**Test Commands:** 43t5r435r
+**Test Commands:** index node
 
-**Other Info:** erfjkswd
+**Other Info:** it works
 
 ---
 
 ## Contributions
 
-sss
+me
 
 ---
 
 ## Questions
-**Github account:** [sdfsdf](https://github.com/sdfsdf)
+**Github account:** [johnatticus](https://github.com/johnatticus)
 
-**E-Mail:** [sdfsdfsf](mailto:sdfsdf)
+**E-Mail:** [johnahysong@mgial.ocm,](mailto:johnatticus)
 
-**GitHub Repo:** [Click Here](https://github.com/sdfsdf/sdfsdfsg)
+**GitHub Repo:** [Click Here](https://github.com/johnatticus/readme-generator)
 
-**GitHub Live Link:** [Click Here](https://sdfsdf.github.io/sdfsdfsg)
+**GitHub Live Link:** [Click Here](https://johnatticus.github.io/readme-generator)
 

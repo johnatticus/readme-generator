@@ -1,9 +1,9 @@
 
-# Readme Proj
+# ETRSARF sdfsdfsedf
 
 ### by john
 
-![Readme Proj](https://raw.githubusercontent.com/johnatticus/readme-generator/main/assets/images/screenshot.png)
+![ETRSARF sdfsdfsedf](https://raw.githubusercontent.com/johnatticus/readme-generator/main/assets/images/screenshot.png)
 
 ---
 ## Table of Contents
@@ -23,30 +23,30 @@
 ---  
 ## Description
 
-*It a projecty*
+*it is a proj*
 
 ---
 
 ## Installation and Usage
 
-**Dependenchies required(installed):** nmpm i
+**Dependenchies required(installed):** npm i
 
-**Test Commands:** index node
+**Test Commands:** node index
 
-**Other Info:** it works
+**Other Info:** nope
 
 ---
 
 ## Contributions
 
-me
+
 
 ---
 
 ## Questions
 **Github account:** [johnatticus](https://github.com/johnatticus)
 
-**E-Mail:** [johnahysong@mgial.ocm,](mailto:johnatticus)
+**E-Mail:** [jaseikdopfjh](mailto:johnatticus)
 
 **GitHub Repo:** [Click Here](https://github.com/johnatticus/readme-generator)
 
